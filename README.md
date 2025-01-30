@@ -13,6 +13,8 @@ Things you may want to cover:
 
 * Database initialization => `rails db:migrate`
 
+* UI dependency => `cd frontend` => then run `npm i`
+
 * How to run the test suite => `bin/dev `
 # if permission issue => chmod +x bin/*
 
