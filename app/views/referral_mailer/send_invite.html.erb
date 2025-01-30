@@ -1,0 +1,4 @@
+<h1>You're invited to join our platform!</h1>
+<p>Hi,</p>
+<p><%= @user.email %> has invited you to join our platform. Click the link below to sign up:</p>
+<p><%= link_to 'Join Now', "#{ENV['API_URL']}/login" %></p>
